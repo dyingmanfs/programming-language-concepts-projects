@@ -1,0 +1,85 @@
+# =========================
+# C / C++ compiled files
+# =========================
+
+*.o
+*.obj
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# =========================
+# CMake
+# =========================
+
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# =========================
+# Haskell generated files
+# =========================
+
+*.hi
+*.o
+*.dyn_hi
+*.dyn_o
+*.prof
+*.aux
+*.hp
+
+.stack-work/
+dist/
+dist-newstyle/
+
+# =========================
+# IDE files
+# =========================
+
+.idea/
+.vscode/
+.vs/
+
+*.iml
+*.user
+*.suo
+
+# =========================
+# Debug files
+# =========================
+
+*.pdb
+*.ilk
+*.dSYM/
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
+*.swp
+*~
+
+# =========================
+# Assignment archives/docs
+# =========================
+
+*.zip
+*.rar
+*.pdf
+
+# =========================
+# OS files
+# =========================
+
+.DS_Store
+Thumbs.db
+desktop.ini
